@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Hello this is Activity Topic Programs"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:text="Assignment Level Intermidiate Programs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/I1task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I1 Task"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/I2task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I2 Task"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/I3task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I3 Task"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/I4task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I4 Task" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:text="Assignment Level Advance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/A1task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A1 Task"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/A2task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A2 Task"
+            android:layout_marginBottom="15dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resulti4"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="I4 Task Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
